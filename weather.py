@@ -37,10 +37,11 @@ def show(data):
   else:
     print("Something wrong with Airport name. ")
     
-
-
-  
-
+  def process():
+    airport_name = input ("Enter the name of the Airport: ")
+    city = get_city_name(airport_name)
+    data = get_data(city)
+    show(data)
 
 def main():
     airport_name = input ("Enter the name of the Airport: ")
