@@ -52,7 +52,7 @@ I, as a ground crew, would like to use this API to get the weather imformation o
   ```
 3. Add API key to local "weather.py" file and save:  
   ```Python
-  API = 'API key'
+  API_KEY = 'Your API key'
   ```
 4. Open terminal/command window and navigate to folder where code was downloaded
 5. Run "python weather.py"
