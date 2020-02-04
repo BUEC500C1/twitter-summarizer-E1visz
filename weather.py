@@ -11,10 +11,10 @@ def get_city_name(airport_name):
     return ""
 
 def get_data(city):
-  APIID = ''
+  API_KEY = ''
     # api.openweathermap.org/data/2.5/forecast/daily?q={city name},{country code}&cnt={cnt}
   basic_url = 'http://api.openweathermap.org/data/2.5/weather?'
-  url = basic_url + "&q=" + city + "&appid=" + APIID
+  url = basic_url + "&q=" + city + "&appid=" + API_KEY
   res = requests.get(url)
   data = res.json()
   return data
