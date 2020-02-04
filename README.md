@@ -49,7 +49,7 @@ I, as a ground crew, would like to use this API to get the weather imformation o
 2. Ensure the following Python packages are installed: Requests
   ```Python
   $ pip install requests
-  '''
+  ```
 3. Add API key to local "weather.py" file and save:  
   ```Python
   API = 'API key'
