@@ -28,7 +28,7 @@ def show(data):
     pressure = data["main"]["pressure"]
     humidity = data["main"]["humidity"]
     description = data['weather'][0]['description']
-    print('Temperature : {} degree celcius'.format(temp))
+    print('Temperature :' +temp + 'degree celcius'.format(temp))
     print('Feeling : {} degree celcius'.format(feels_like))
     print('Wind Speed : {} m/s'.format(wind_speed))
     print('Pressure : {} pa'.format(pressure))
@@ -36,12 +36,13 @@ def show(data):
     print('Description : {}'.format(description))
   else:
     print("Something wrong with Airport name. ")
-    
-  def process():
-    airport_name = input ("Enter the name of the Airport: ")
+
+def process(airport_name):
+    # airport_name = input ("Enter the name of the Airport: ")
     city = get_city_name(airport_name)
     data = get_data(city)
-    show(data)
+    return city
+
 
 def main():
     airport_name = input ("Enter the name of the Airport: ")
