@@ -39,7 +39,7 @@ I, as a ground crew, would like to use this API to get the weather imformation o
 
 ## Run Program
 
-*Assumes __Requests__ packages already installed.*
+*Assumes __Requests__ package already installed.*
 
 *Assumes __OpenweatherMap Keys__ available.*
 
