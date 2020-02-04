@@ -6,3 +6,4 @@ WeatherAPI-E1visz created by GitHub Classroom
 
 
 ## Result
+<img src="img/EC601-MiniProject1.png">
