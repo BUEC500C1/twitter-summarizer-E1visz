@@ -56,7 +56,7 @@ I, as a ground crew, would like to use this API to get the weather imformation o
   ```
 4. Open terminal/command window and navigate to folder where code was downloaded
 5. Run "python weather.py"
-7. Enter the airport name
+6. Enter the airport name
 
 <a name="test-cases"/>
 
